@@ -1,6 +1,6 @@
 def main(a):
-    print(a.split())
+    print(len(a.split()))
 
 if __name__ == '__main__':
-    test = 'asdf sdf sdf sdf'
+    test = input()
     main(test)
